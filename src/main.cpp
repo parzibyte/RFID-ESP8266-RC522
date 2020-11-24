@@ -50,7 +50,7 @@ void setup()
   // Just wait some seconds...
   delay(4);
   // Prepare the security key for the read and write functions.
-  // Normally it is 0xFFFFFFFFFF
+  // Normally it is 0xFFFFFFFFFFFF
   // Note: 6 comes from MF_KEY_SIZE in MFRC522.h
   for (byte i = 0; i < 6; i++)
   {
